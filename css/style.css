@@ -1,0 +1,103 @@
+:root {
+  --brand-color: #ff6c00;
+  --black-color: #303030;
+  --white-color: #fff;
+  --subtitle-grey-color: rgba(157, 164, 189, 0.6);
+  --text-font-family: "Open Sans", sans-serif;
+  --header-font-family: "Raleway", sans-serif;
+}
+/*global-styles*/
+.body {
+  font-family: var(--text-font-family);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/*classes*/
+
+.social-media-link {
+  color: var(--black-color);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.social-media-link:hover,
+.social-media-link:focus {
+  color: var(--brand-color);
+}
+
+.hero-content {
+  /*todo:replace with image background*/
+  background-color: var(--black-color);
+  color: var(--withe-color);
+}
+
+.nav-link {
+  color: var(--withe-color);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--brand-color);
+}
+
+.adress-phone-number {
+  color: var(--withe-color);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.book-service-button {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--withe-color);
+  border-color: #ff6c00;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.book-service-button:hover,
+.book-service-button:focus {
+  background-color: var(--brand-color);
+}
+.subtitle {
+  font-family: Open Sans;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.subtitle-dark {
+  color: var(--black-color);
+}
+.subtitle-light {
+  color: var(--subtitle-grey-color);
+}
+.main-title {
+  color: var(--white-color)
+
+  font-family: Raleway;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}

@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="The Best Barbershop in Your City" />
     <meta name="keywords" content="Barbershop,Hair,Beard,Haircuts" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>BarberShop</title>
   </head>
@@ -20,6 +27,7 @@
           <ul>
             <li>
               <a
+                class="social-media-link"
                 href="https//youtube.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -28,6 +36,7 @@
             </li>
             <li>
               <a
+                class="social-media-link"
                 href="https//instagram.com"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
@@ -39,22 +48,28 @@
         </div>
       </div>
       <!--Hero content-->
-      <div>
+      <div class="hero-content">
         <!--header-->
         <header>
           <nav>
             <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#prices">Services and Prices</a></li>
-              <li><a href="#barbers">Barbers</a></li>
-              <li><a href="#contacts">Contacts</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li>
+                <a class="nav-link" href="#prices">Services and Prices</a>
+              </li>
+              <li><a class="nav-link" href="#barbers">Barbers</a></li>
+              <li><a class="nav-link" href="#contacts">Contacts</a></li>
             </ul>
             <div>
               <address>
-                <a href="tel:+380441111111">+38 044 111 11 11</a>
+                <a class="adress-phone-number" href="tel:+380441111111"
+                  >+38 044 111 11 11</a
+                >
               </address>
 
-              <button type="button">Book a Service</button>
+              <button class="book-service-button" type="button">
+                Book a Service
+              </button>
             </div>
           </nav>
         </header>
@@ -63,8 +78,10 @@
         <section>
           <div>
             <img src="./images/devider.svg" alt="-" />
-            <h3>A hair salon for men in Kyiv</h3>
-            <h1>BarberShop</h1>
+            <h3 class="subtitle subtitle-light">
+              A hair salon for men in Kyiv
+            </h3>
+            <h1 class="main-title">BarberShop</h1>
             <h2>
               We are experts in trendy men's haircuts. <br />
               We work quickly, carefully, and tastefully.
@@ -99,7 +116,7 @@
       <!--About content-->
       <div>
         <img src="./images/devider.svg" alt="-" />
-        <h3>About</h3>
+        <h3 class="subtitle subtitle-dark">About</h3>
       </div>
       <h2>The Best Barbershop in Your City</h2>
       <p>
@@ -112,7 +129,7 @@
         again. We are a team that is always on the same wavelength with clients.
         Therefore, we are always ready to improve everyone who comes to us!
       </p>
-      <button type="button">book a service</button>
+      <button class="book-service-button" type="button">book a service</button>
     </section>
 
     <!--Servecies and prices section-->
@@ -120,7 +137,9 @@
       <!--Subtitle-->
       <div>
         <img src="./images/devider.svg" alt="-" />
-        <h3>Spend time in the company of the best craftsmen</h3>
+        <h3 class="subtitke subtitle-light">
+          Spend time in the company of the best craftsmen
+        </h3>
       </div>
       <h2>Services and Prices</h2>
       <div>
@@ -139,7 +158,7 @@
           <li><span>Gray Coverage</span><span>Gray Coverage</span></li>
         </ul>
       </div>
-      <button type="button">book a Service</button>
+      <button class="book-service-button" type="button">book a Service</button>
     </section>
 
     <!--Why us section-->
@@ -165,7 +184,7 @@
       <!--subtitle-->
       <div>
         <img src="./devider.svg" alt="-" />
-        <h3>Old school</h3>
+        <h3 class="subtitle subtitle-dark">Old school</h3>
       </div>
       <h2>Why do they come to us?</h2>
       <p>
@@ -179,7 +198,9 @@
       <!--subtitle-->
       <div>
         <img src="./devider.svg" alt="-" />
-        <h3>for true connoisseurs of the atmosphere</h3>
+        <h3 class="subtitle subtitle-dark">
+          for true connoisseurs of the atmosphere
+        </h3>
       </div>
       <h2>Our Barbers</h2>
       <ul>
@@ -219,7 +240,9 @@
     <section>
       <div>
         <img src="./devider.svg" alt="-" />
-        <h3>In Latin, &quot;barba&quot; means &quot;beard&quot;</h3>
+        <h3 class="subtitle subtitle-dark">
+          In Latin, &quot;barba&quot; means &quot;beard&quot;
+        </h3>
       </div>
       <ul>
         <li>
@@ -256,18 +279,26 @@
     </section>
     <!--footer-->
     <footer>
-      <p>&copy; Copyright 2022</p>
+      <p class="subtitle subtitle-light">&copy; Copyright 2022</p>
 
       <div>
         <img src="./devider.svg" alt="-" />
         <ul>
           <li>
-            <a href="https//youtube.com" target="_blank" rel="noopener"
+            <a
+              class="social-media-link"
+              src="https//youtube.com"
+              target="_blank"
+              rel="noopener"
               >Youtube
             </a>
           </li>
           <li>
-            <a href="https//instagram.com " targe="_blank" rel="noopener"
+            <a
+              class="social-media-link"
+              href="https//instagram.com "
+              targe="_blank"
+              rel="noopener"
               >Instagram
             </a>
           </li>
