@@ -2,9 +2,10 @@
   --brand-color: #ff6c00;
   --black-color: #303030;
   --white-color: #fff;
-  --subtitle-grey-color: rgba(157, 164, 189, 0.6);
+  --grey-color: rgba(157, 164, 189, 0.6);
   --text-font-family: "Open Sans", sans-serif;
   --header-font-family: "Raleway", sans-serif;
+  --content-color: #555;
 }
 /*global-styles*/
 .body {
@@ -34,7 +35,7 @@ ul {
 .hero-content {
   /*todo:replace with image background*/
   background-color: var(--black-color);
-  color: var(--withe-color);
+  color: var(--white-color);
 }
 
 .nav-link {
@@ -51,7 +52,8 @@ ul {
 }
 
 .adress-phone-number {
-  color: var(--withe-color);
+  color: var(--white-color);
+  font-family: Open Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -59,7 +61,10 @@ ul {
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
-
+.adress-phone-number :hover,
+.adress-phone-number :focus {
+  background-color: var(--brand-color);
+}
 .book-service-button {
   background-color: rgba(0, 0, 0, 0);
   color: var(--withe-color);
@@ -71,6 +76,13 @@ ul {
   letter-spacing: 1.08px;
   text-transform: uppercase;
   cursor: pointer;
+}
+.book-service-button-light {
+  color: var(--white-color);
+}
+
+.book-service-button-dark {
+  color: var(--black-color);
 }
 .book-service-button:hover,
 .book-service-button:focus {
@@ -91,13 +103,55 @@ ul {
 .subtitle-light {
   color: var(--subtitle-grey-color);
 }
-.main-title {
-  color: var(--white-color)
-
-  font-family: Raleway;
+.hero-header {
+  font-family: var(--header-font-family);
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 3.6px;
+}
+.header {
+  font-family: var(--header-font-family);
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+.header-dark {
+  color: var(--black-color);
+}
+.header-light {
+  color: var(--white-color);
+}
+.hero-control-buttons {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  background-color: none;
+  cursor: pointer;
+  /*todo-create border*/
+}
+.hero-control-buttons-dark {
+  color: var(--grey-color);
+}
+.hero-control-buttons-light {
+  color: var(--white-color);
+}
+.about-content-1 {
+  color: var(--content-color);
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.36px;
+}
+.about-content-2 {
+  color: var(--content-color);
+  font-family: Open Sans;
+  font-size: 14px;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 0.28px;
 }
